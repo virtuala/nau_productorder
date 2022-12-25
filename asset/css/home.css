@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*-- ------ Define style ------ --*/
+
+
+
+
+/*-- ------ Common ------ --*/
+.MainLogo{ width: 200px; margin: 60px auto 24px auto; }
+.MainLogo img{ width: 100%; }
+
+.MainBg{ background-color:#ecf0f1; }
+.MainFrame90{ width:90%; margin:0px auto 0px auto; }
+
+.MainButton{ width: 100%; margin: 0px auto 24px auto; background-color:#ecf0f1; border-radius:3px; font-size:16px; line-height:48px; text-align:center; }
+.MainButtonRed{ width: 100%; margin: 0px auto 0px auto; background-color:#c0392b; border-radius:3px; font-size:16px; line-height:48px; text-align:center; color:#FFFFFF; }
+.MainButtonLittle{ width: 100%; margin: 0px auto 12px auto; background-color:#ecf0f1; border-radius:3px; font-size:12px; line-height:32px; text-align:center; }
+.MainButtonLittleRed{ width: 100%; margin: 0px auto 12px auto; background-color:#c0392b; border-radius:3px; font-size:12px; line-height:32px; text-align:center; color:#FFFFFF; }
+
+.MarginBottom{ margin-bottom:24px; }
+
+.MainTab{ border-bottom:1px #EEEEEE solid; }
+.MainTab .ATab{ float:left; background-image:url(../../static/line1.jpg); background-repeat:repeat-y; background-position:0 right; text-align:center; line-height:42px; font-size:14px; }
+.MainTab .ATabLight{ float:left; background-image:url(../../static/line1.jpg); background-repeat:repeat-y; background-position:0 right; background-color:#E44C27; text-align:center; line-height:42px; font-size:14px; color:#FFFFFF; }
+
+.MainFloatButtonBox{ position:absolute; bottom:44px; right:12px; }
+.MainFloatButtonBox .AButton{ width:36px; height:36px; margin:0px auto 12px 0px; background-color:#CCCCCC; color:#FFFFFF; border-radius:18px; line-height:36px; text-align:center; opacity:0.7; *filter:alpha(opacity=70); }
+
+.MainForm{ width: 100%; display:block; margin: 0px auto 0px auto; }
+.MainFormRow{ padding:12px 4% 12px 4%; border-bottom:1px #EEEEEE solid; }
+.MainFormLabel{ line-height:24px; color:#999999; }
+.MainFormControl{}
+.MainFormControlLabel{ padding:6px 0px 6px 0px; line-height:24px; }
+.MainFormControlInput{ height:42px; padding:6px 0px 0px 0px; line-height:24px; }
+.MainFormControlTextarea{ height:150px; padding:6px 0px 0px 0px; line-height:24px; }
+.MainEndButtonbox{ width: 92%; margin: 24px auto 24px auto; }
+.MainEndButtonbox .AButton{ width: 100%; }
+.MainEndButtonbox .AButtonRed{ width: 100%; background-color:#e74c3c; }
+
+/*-- ------ Login ------ --*/
+.MainLoginTitle{ margin: 0px auto 24px auto; font-size: 1.1em; text-align: center; }
+
+.MainLoginButtonBox{ width: 90%; margin: 0px auto 0px auto; }
+.MainLoginButton{ width: 100%; margin: 0px auto 24px auto; background-color:#ecf0f1; border-radius:3px; font-size:16px; line-height:48px; text-align:center; }
+.MainLoginButtonLogout{ width: 100%; margin: 0px auto 24px auto; background-color:#c0392b; border-radius:3px; font-size:16px; line-height:48px; text-align:center; color:#FFFFFF; }
+.MainLoginEndBlank{ height:240px; }
+.MainLoginForm{ width: 90%; display:block; margin: 0px auto 0px auto; }
+.MainLoginInputbox{ width: 100%; margin: 0px auto 24px auto; border: 1px #EEEEEE solid; border-radius: 3px; background-color: #FFFFFF; }
+.MainLoginInputbox .AIcon{ height: 54px; float: left; margin:0px 4% 0px 4%; line-height: 54px; color: #95a5a6; }
+.MainLoginInputbox .AInput{ width: 70%; height: 54px; float: left; padding: 0px 0px 0px 0px; line-height: 54px; }
+.MainLoginInputbox .AInputCode{ width: 35%; height: 54px; float: left; padding: 0px 0px 0px 0px; line-height: 54px; }
+.MainLoginInputbox .ACode{ height: 48px; float: right; margin: 3px 3px 0px 0px; }
+.MainLoginButtonbox{ width: 100%; margin: 0px auto 24px auto; }
+.MainLoginButtonbox .AButton{ width: 100%; }
+
+/*-- ------ MainMain ------ --*/
+.MainMain{}
+
+.MainMainHeader{ background-color:#2980b9; background-image:url(../../static/userbg1.jpg); background-position:right center; padding:24px 0px 24px 0px; }
+.MainMainHeader .AImg{ margin:0px auto 12px auto; text-align:center; }
+.MainMainHeader .AImg img{ width:20%; }
+.MainMainHeader .AText{ margin:0px auto 0px auto; text-align:center; color:#FFFFFF; }
+
+.MainMainIcon{ margin:12px auto 12px auto; padding:24px 0px 24px 0px; background-color:#FFFFFF; }
+.MainMainIcon .AIcon{ width:25%; float:left; text-align:center; }
+.MainMainIcon .AImg{ width:50%; }
+.MainMainIcon .AText{}
+
+.MainMainLink{ margin:0px auto 24px auto; }
+.MainMainLink .ALink{ background-color:#FFFFFF; border-bottom:1px #EEEEEE solid; }
+.MainMainLink .AIcon{ display:block; float:left; margin:0px 4% 0px 6%; padding:16px 0px 16px 0px; line-height:24px; }
+.MainMainLink .AText{ float:left; padding:16px 0px 16px 0px; line-height:24px; }
+
+
+
+
+
+
+
+
+
+/*-- ------ Define style ------ --*/
+.MainContainerLeftTree{ background-color:#FFFFFF; border-right:1px #EEEEEE solid; }
+
+.MainSearchHighBox{ margin:0px 20px 20px 20px; }
+.MainSearchHighBox .AForm{ margin:0px 0px 12px 0px; }
+
+.MainTableSplit{ margin:0px 0px 12px 0px; background-color:#EEEEEE; border-radius:2px; }
+.MainTableSplit .AButton1{ width:8%; float:left; margin:2px 0px 2px 0.5%; padding:2px 2px 2px 2px; background-color:#95a5a6; border-radius:2px; color:#FFFFFF; font-size:10px; text-align:center; }
+.MainTableSplit .AHandle1{ width:55%; float:right; margin:2px 0.5% 2px 0px; padding:2px 2px 2px 2px; background-color:#000000; border-radius:2px; color:#FFFFFF; font-size:10px; text-align:center; cursor:ns-resize; opacity:0.2; *filter:alpha(opacity=20); }
+
+.MainTableSplitDrag{ position:absolute; top:100px; height:16px; z-index:9999999; margin:0px 0px 12px 0px; padding:2px 0px 2px 0px; background-color:#000000; border-radius:2px; text-align:center; font-size:10px; cursor:ns-resize; opacity:0.2; *filter:alpha(opacity=20); }
+
+
+
+
+/*-- ------ MainList ------ --*/
+.MainList{ padding:12px 4% 0px 4%; border-bottom:1px #EEEEEE solid; }
+.MainList .ATitle{ margin:0px 0px 12px 0px; }
+.MainList .AContent{ width:70%; float:left; margin:0px 0px 12px 0px; font-size:14px; color:#666666; }
+.MainList .ARight{ width:20%; float:right; }
+.MainList .ARightButton{ width:100%; }
+
+/*-- ------ MainButtonCenter ------ --*/
+.MainButtonCenter{ width:100px; height:100px; margin:24px auto; border: 1px #DDDDDD solid; border-radius: 50px; text-align: center; }
+.MainButtonCenter .AIcon{ display: block; margin:14px auto 0px auto; font-size: 2em; }
+
+/*-- ------ MainJumpList ------ --*/
+.MainJumpList{}
+.MainJumpListRow{ padding: 12px 4% 12px 4%; border-bottom: 1px #EEEEEE solid; }
+.MainJumpListRowInfo{ width: 70%; float: left; }
+.MainJumpListRowButton{ width: 30%; float: right; }
+.MainJumpListRowButton .AButton{ background-color: #EEEEEE; font-size: 0.8em; }
+
+/*-- ------ MainJumpSettingCount ------ --*/
+.MainJumpSettingCount{}
+.MainJumpSettingCountForm{ width:92%; margin: 12px auto; }
+.MainJumpSettingCountFormProduct{ float: left; padding:12px 0px; }
+.MainJumpSettingCountFormInput{ float: right; }
+.MainJumpSettingCountFormInput input{ width:100px; height: 45px; text-align: center; }
+.MainJumpSettingCountFormInputLabel{ float: right; padding:12px 0px; }
+.MainJumpSettingCountButton{ width:94%; margin: 12px auto; }
+
+
+
+
+
+
+
+
